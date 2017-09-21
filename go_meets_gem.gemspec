@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "go_meets_gem"
   spec.version       = GoMeetsGem::VERSION
   spec.authors       = ["zaru"]
-  spec.email         = ["sakuraba@basicinc.jp"]
+  spec.email         = ["zarutofu@gmail.com"]
 
   spec.summary       = %q{go meets gem}
   spec.description   = %q{go meets gem}
@@ -30,7 +30,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "ffi"
-  
+
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
